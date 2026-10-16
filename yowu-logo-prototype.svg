@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 300" role="img" aria-labelledby="title desc">
+  <title id="title">YOWU 临时重绘标志</title>
+  <desc id="desc">四枚由小到大的不规则石形垂直排列；可编辑原型，并非正式商标源文件。</desc>
+  <defs>
+    <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dfc58d"/><stop offset=".25" stop-color="#815641"/>
+      <stop offset=".52" stop-color="#123c40"/><stop offset=".78" stop-color="#25727a"/><stop offset="1" stop-color="#c46d43"/>
+    </linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".9" numOctaves="3" seed="8" result="noise"/><feBlend in="SourceGraphic" in2="noise" mode="soft-light"/></filter>
+  </defs>
+  <g fill="url(#stone)" stroke="#e9ded0" stroke-width="2" filter="url(#grain)">
+    <circle cx="92" cy="24" r="11"/>
+    <path d="M69 63c8-15 32-17 42-4 9 13-2 29-19 30-17 2-32-11-23-26z"/>
+    <path d="M49 111c14-20 48-25 64-7 12 14 0 41-19 46-18 5-43-3-49-16-3-7-1-15 4-23z"/>
+    <path d="M32 190c13-27 48-42 78-34 27 7 39 33 27 58-13 27-46 49-76 41-31-8-43-36-29-65z"/>
+  </g>
+</svg>
